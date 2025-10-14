@@ -1,6 +1,7 @@
 import ClassCom from "./Component/ClassCom"
 import FunCom from "./Component/FunCom"
 import Jsx from "./JSX/Jsx"
+import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <ClassCom/> */}
     {/* {new ClassCom().render()} */}
     {/* {FunCom()} */}
-    <Jsx/>
+    {/* <Jsx/> */}
+  <Fetchdata/>
   </div>
 }
 
