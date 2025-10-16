@@ -1,7 +1,12 @@
-import ClassCom from "./Component/ClassCom"
-import FunCom from "./Component/FunCom"
-import Jsx from "./JSX/Jsx"
-import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
+// import ClassCom from "./Component/ClassCom"
+// import FunCom from "./Component/FunCom"
+// import Jsx from "./JSX/Jsx"
+// import Parent from "./Props/parent-to-child/Parent"
+// import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
+
+import Parent from "./Props/child-to-child/Parent"
+
+// import Parent from "./Props/child-to-parent/Parent"
 
 
 function App() {
@@ -12,7 +17,10 @@ function App() {
     {/* {new ClassCom().render()} */}
     {/* {FunCom()} */}
     {/* <Jsx/> */}
-  <Fetchdata/>
+    {/* <Fetchdata/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+  <Parent/>
   </div>
 }
 
