@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function G() {
+function G(props) {
+  // var [name, setName] = useState('sachin')
+  
+  // function updateState() {
+  //   setName('kohli')
+  // }
+  console.log('render')
   return (
-    <div>G</div>
+    <div>
+      <h3>G: {props.name}</h3>
+      <button onClick={props.updateState}>update state</button>
+    </div>
   )
 }
 

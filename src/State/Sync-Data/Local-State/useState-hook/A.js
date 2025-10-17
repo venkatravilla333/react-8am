@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import B from './B'
 import C from './C'
 
 function A() {
+
+    var [name, setName] = useState('sachin')
+  
+  function updateState() {
+    setName('kohli')
+  }
   return (
     <div>
       <B />
-      <C />
+      <C  name={name} updateState={updateState} />
     </div>
   )
 }
