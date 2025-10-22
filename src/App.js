@@ -4,7 +4,9 @@
 // import Parent from "./Props/parent-to-child/Parent"
 // import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
-import A from "./State/Sync-Data/Global-State/Redux-Concept/React-Components/A"
+import A from "./State/Sync-Data/Global-State/Redux-Toolkit/React-Components/A"
+
+// import A from "./State/Sync-Data/Global-State/Redux-Concept/React-Components/A"
 
 // import A from "./State/Sync-Data/Global-State/Context-Api/Context-Api-with-useState/A"
 
@@ -29,6 +31,7 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/> */}
+    {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}

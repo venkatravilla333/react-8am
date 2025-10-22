@@ -1,5 +1,8 @@
 
-import { combineReducers, createStore } from 'redux'
+import { combineReducers, createStore, applyMiddleware } from 'redux'
+import { composeWithDevTools } from '@redux-devtools/extension'
+
+import logger from 'redux-logger'
 
 import { cakeReducer } from './cake/cakeReducer'
 import { curdReducer } from './curd/curdReducer'
@@ -10,4 +13,4 @@ var rootReducer = combineReducers({
   curd: curdReducer
 })
 
-export var store = createStore(rootReducer)
+export var store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger)))
