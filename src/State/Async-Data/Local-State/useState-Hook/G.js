@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-function G(props) {
+function G() {
 
   var [loading, setLoading] = useState(false)
   var [posts, setPosts] = useState([])
