@@ -4,7 +4,15 @@
 // import Parent from "./Props/parent-to-child/Parent"
 // import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
-import A from "./State/Async-Data/Local-State/useState-Hook/A"
+import Parent from "./SideEffects/Interact-with-browser/Parent"
+
+// import Parent from "./SideEffects/Interact-with-dom/Parent"
+
+// import Parent from "./Conditional-Rendering/Parent"
+
+// import Parent from "./Map-Method/Parent"
+
+// import A from "./State/Async-Data/Local-State/useState-Hook/A"
 
 // import A from "./State/Sync-Data/Local-State/useReducer-hook/A"
 
@@ -40,7 +48,11 @@ function App() {
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
-    <A/>
+    {/* <A/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    {/* <Parent/> */}
+    <Parent/>
   </div>
 }
 
