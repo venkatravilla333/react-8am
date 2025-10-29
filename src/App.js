@@ -4,7 +4,12 @@
 // import Parent from "./Props/parent-to-child/Parent"
 // import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
-import Parent from "./SideEffects/Interact-with-browser/Parent"
+import A from "./State/Async-Data/Local-State/useReducer-hook/A"
+
+// import Container from "./SideEffects/CleanUp/Container"
+// import Parent from "./SideEffects/Interact-with-browser/Parent"
+// import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
+// import A from "./State/Async-Data/Global-State/Context-Api-useState/A"
 
 // import Parent from "./SideEffects/Interact-with-dom/Parent"
 
@@ -52,7 +57,11 @@ function App() {
     {/* <Parent/> */}
     {/* <Parent/> */}
     {/* <Parent/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    {/* <Container/> */}
+    {/* <Fetchdata/> */}
+    {/* <A/> */}
+    <A/>
   </div>
 }
 
