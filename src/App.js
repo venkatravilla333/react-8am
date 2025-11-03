@@ -4,7 +4,9 @@
 // import Parent from "./Props/parent-to-child/Parent"
 // import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
-import A from "./State/Async-Data/Local-State/useReducer-hook/A"
+import A from "./State/Async-Data/Global-State/Redux-Concept/React-Components/A"
+
+// import A from "./State/Async-Data/Local-State/useReducer-hook/A"
 
 // import Container from "./SideEffects/CleanUp/Container"
 // import Parent from "./SideEffects/Interact-with-browser/Parent"
@@ -60,6 +62,7 @@ function App() {
     {/* <Parent/> */}
     {/* <Container/> */}
     {/* <Fetchdata/> */}
+    {/* <A/> */}
     {/* <A/> */}
     <A/>
   </div>
