@@ -4,6 +4,10 @@
 // import Parent from "./Props/parent-to-child/Parent"
 // import Fetchdata from "./SideEffects/Making-Api-Calls/Fetchdata"
 
+import Parent from "./Destructuring/Parent"
+import Count1 from "./Peformance/How-to-remove-duplicate-logic/Count1"
+import Count2 from "./Peformance/How-to-remove-duplicate-logic/Count2"
+import Count3 from "./Peformance/How-to-remove-duplicate-logic/Count3"
 import A from "./State/Async-Data/Global-State/Toolkit-Concept/React-Components/A"
 
 // import A from "./State/Async-Data/Global-State/Redux-Concept/React-Components/A"
@@ -67,7 +71,11 @@ function App() {
     {/* <A/> */}
     {/* <A/> */}
     {/* <A/> */}
-    <A/>
+    {/* <A/> */}
+    {/* <Count1 />
+    <Count2 />
+    <Count3/> */}
+    <Parent/>
   </div>
 }
 
